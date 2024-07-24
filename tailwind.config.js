@@ -8,7 +8,12 @@ module.exports = {
 		container: {
 			center: true
 		},
-		extend: {}
+		extend: {
+			colors: {
+				primary: '#1f1f1f',
+				secondary: '#333'
+			}
+		}
 	},
 	plugins: []
 }

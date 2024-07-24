@@ -4,6 +4,10 @@
 
 @layer base {
 	body {
-		@apply font-inter;
+		@apply text-white font-inter bg-[#141414] flex justify-center items-center h-[100vh] p-5;
 	}
+}
+
+.link-button {
+	@apply py-3 px-6 bg-secondary rounded-lg active:scale-95 shadow border-t border-gray-500/50;
 }
